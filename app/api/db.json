@@ -1,0 +1,180 @@
+{
+  "charities": [
+    {
+      "id": "1",
+      "name": "Baan Kru Noi",
+      "image": "images/baan-kru-noi.jpg",
+      "currency": "THB"
+    },
+    {
+      "id": "2",
+      "name": "Habitat for Humanity Thailand",
+      "image": "images/habitat-for-humanity-thailand.jpg",
+      "currency": "THB"
+    },
+    {
+      "id": "3",
+      "name": "Paper Ranger",
+      "image": "images/paper-ranger.jpg",
+      "currency": "THB"
+    },
+    {
+      "id": "4",
+      "name": "Makhampom Theater",
+      "image": "images/makhampom-theater.jpg",
+      "currency": "THB"
+    },
+    {
+      "id": "5",
+      "name": "Thailand Association of the Blind",
+      "image": "images/thailand-association-of-the-blind.jpg",
+      "currency": "THB"
+    }
+  ],
+  "payments": [
+    {
+      "charitiesId": 2,
+      "amount": 10,
+      "currency": "THB",
+      "id": "1"
+    },
+    {
+      "charitiesId": 1,
+      "amount": 20,
+      "currency": "THB",
+      "id": "2"
+    },
+    {
+      "charitiesId": 3,
+      "amount": 50,
+      "currency": "THB",
+      "id": "3"
+    },
+    {
+      "charitiesId": 4,
+      "amount": 100,
+      "currency": "THB",
+      "id": "4"
+    },
+    {
+      "charitiesId": 2,
+      "amount": 500,
+      "currency": "THB",
+      "id": "5"
+    },
+    {
+      "charitiesId": 5,
+      "amount": 500,
+      "currency": "THB",
+      "id": "6"
+    },
+    {
+      "id": "927d",
+      "charitiesId": 2,
+      "amount": 20,
+      "currency": "THB"
+    },
+    {
+      "id": "39b0",
+      "charitiesId": 5,
+      "amount": 500,
+      "currency": "THB"
+    },
+    {
+      "id": "b363",
+      "charitiesId": "2",
+      "amount": 100,
+      "currency": "THB"
+    },
+    {
+      "id": "da57",
+      "charitiesId": "3",
+      "amount": 50,
+      "currency": "THB"
+    },
+    {
+      "id": "3c1f",
+      "charitiesId": "3",
+      "amount": 100,
+      "currency": "THB"
+    },
+    {
+      "id": "31bc",
+      "charitiesId": "1",
+      "amount": 10,
+      "currency": "THB"
+    },
+    {
+      "id": "3dd2",
+      "charitiesId": "2",
+      "amount": 10,
+      "currency": "THB"
+    },
+    {
+      "id": "1db2",
+      "charitiesId": "2",
+      "amount": 50,
+      "currency": "THB"
+    },
+    {
+      "id": "5861",
+      "charitiesId": "3",
+      "amount": 100,
+      "currency": "THB"
+    },
+    {
+      "id": "1c25",
+      "charitiesId": "2",
+      "amount": 10,
+      "currency": "THB"
+    },
+    {
+      "id": "2ed9",
+      "charitiesId": "3",
+      "amount": 50,
+      "currency": "THB"
+    },
+    {
+      "id": "829d",
+      "charitiesId": "2",
+      "amount": 10,
+      "currency": "THB"
+    },
+    {
+      "id": "7f92",
+      "charitiesId": "3",
+      "amount": 10,
+      "currency": "THB"
+    },
+    {
+      "id": "9d18",
+      "charitiesId": "2",
+      "amount": 10,
+      "currency": "THB"
+    },
+    {
+      "id": "9245",
+      "charitiesId": "3",
+      "amount": 10,
+      "currency": "THB"
+    },
+    {
+      "id": "9995",
+      "charitiesId": "2",
+      "amount": 20,
+      "currency": "THB"
+    },
+    {
+      "id": "aec8",
+      "charitiesId": "2",
+      "amount": 100,
+      "currency": "THB"
+    },
+    {
+      "id": "e9a3",
+      "charitiesId": "2",
+      "amount": 50,
+      "currency": "THB"
+    }
+  ]
+}
