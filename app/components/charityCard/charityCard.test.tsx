@@ -16,13 +16,24 @@ describe("CharityCard", () => {
     render(<CharityCard charity={mockCharity} onDonate={mockOnDonate} />);
   });
 
-  //   test("renders the charity name", () => {
-  //     expect(screen.getByText(mockCharity.name)).toBeInTheDocument();
-  //   });
+  test("renders the charity name", () => {
+    expect(screen.getByText(mockCharity.name)).toBeInTheDocument();
+  });
 
-  //   test("renders the charity image", () => {
-  //     const image = screen.getByAltText(mockCharity.name);
-  //     expect(image).toBeInTheDocument();
-  //     expect(image).toHaveAttribute("src", mockCharity.image);
-  //   });
+  test("renders the charity image", () => {
+    const image = screen.getByAltText(mockCharity.name);
+    expect(image).toBeInTheDocument();
+    expect(image).toHaveAttribute("src", mockCharity.image);
+  });
+
+  test("handles the donate button click event", () => {
+    const donateButton = screen.getAllByText("Donate");
+
+    fireEvent.click(donateButton[0]);
+
+    expect(mockOnDonate).toHaveBeenCalledWith({
+      id: mockCharity.id,
+      name: mockCharity.name,
+    });
+  });
 });

@@ -1,7 +1,7 @@
 import React from "react";
 import CharityCard from "@/components/charityCard/charityCard";
 import { Charity } from "@/types";
-import { Container } from "./charityCard.style";
+import { Container } from "./charityList.style";
 
 interface CharityListProps {
   charities: Charity[];

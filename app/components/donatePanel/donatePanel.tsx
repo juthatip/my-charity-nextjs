@@ -45,7 +45,9 @@ const DonatePanel: React.FC<DonatePanelProps> = ({
       <PanelContent>
         <h2>Select the amount to donate </h2>
         <h3>{charityInfo.name} (THB)</h3>
-        <ButtonClose onClick={onClose}>Close</ButtonClose>
+        <ButtonClose onClick={onClose} data-testid="close-button">
+          Close
+        </ButtonClose>
         <OptionGroup>
           {paymentAmounts.map((amount, index) => (
             <Label key={index}>
